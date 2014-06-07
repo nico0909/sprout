@@ -1,0 +1,98 @@
+﻿#easymode
+{
+	position:absolute;
+    left:644px;
+    top:98px;
+    color:orange;
+    font-weight: bold;
+    visibility:hidden;
+    font-size:large;
+
+}
+
+#mediummode
+{
+	position:absolute;
+    left:632px;
+    top:98px;
+    color:orange;
+    font-weight: bold;
+    visibility:hidden;
+    font-size:large;
+
+
+}
+
+#hardmode
+{
+	position:absolute;
+    left:643px;
+    top:98px;
+    color:orange;
+    font-weight: bold;
+    visibility:hidden;
+    font-size:large;
+
+
+}
+
+
+
+
+#scoretext
+{
+	position:absolute;
+    left:641px;
+    top:120px;
+    color:orange;
+    font-weight: bold;
+    visibility:hidden;
+
+}
+
+#difficulty
+{
+	position:absolute;
+    left:597px;
+    top:50px;
+    color:fuchsia;
+    font-weight: bold;
+    visibility:visible;
+
+}
+
+
+
+#guesstext1
+{
+	position:absolute;
+    left:1050px;
+    top:15px;
+    color: green;
+    font-weight: bold;
+    visibility:hidden;
+}
+
+#guesstext2
+{
+	position:absolute;
+    left:1050px;
+    top:32px;
+    color:green;
+    font-weight: bold;
+    visibility:hidden;
+
+}
+
+
+#guesstext3
+{
+	position:absolute;
+    left:1050px;
+    top:50px;
+    color:green;
+    font-weight: bold;
+    visibility:hidden;
+
+}
+

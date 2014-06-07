@@ -1,0 +1,197 @@
+<html>
+
+	<head>
+
+		<link rel="stylesheet" href="thecss.css">
+
+		
+		<script type="text/javascript" src="thescript.js">  </script>
+    <script type="text/javascript" src="jquery-1.9.1.js"></script>
+    
+    
+    <script>
+$(document).ready(function() {
+
+ 
+  
+
+$("#p1").click(function () {
+$("#showone").fadeOut(1000); 
+
+
+
+});
+});
+
+</script>
+
+    <script>
+$(document).ready(function() {
+
+ 
+  
+
+$("#p2").click(function () {
+$("#showone").fadeIn(10); 
+
+
+
+});
+});
+
+</script>
+
+ <script>
+$(document).ready(function() {
+$("#showone").hide();
+$("#showone").show(50);  
+$("#instructionsmanual").hide(); 
+$("#xbutton").hide(); 
+
+
+
+$("#instruction").click(function () {
+
+	$("#instructionsmanual").css("position","absolute");
+  $("#instructionsmanual").css("border","5px solid black");
+ $("#instructionsmanual").css("left","320");
+ 
+ $("#instructionsmanual").fadeIn(1000);
+ 
+   $("#xbutton").fadeIn(1000); 
+   
+   $("#x").css("position","absolute");
+ $("#x").css("left","910"); 
+
+ 
+ 
+});
+});		
+</script>	
+
+ <script>
+$(document).ready(function() { 
+            DisplayQuestions();
+$("#xbutton").click(function () {
+
+
+ 
+ $("#instructionsmanual").fadeOut(1000);
+ 
+   $("#xbutton").fadeOut(1000); 
+   
+
+
+ 
+ 
+});
+});		
+</script>	
+
+
+<script language="javascript">
+//COUNTDOWN
+var max_time = 5;
+var cinterval;
+var NUMB=1;
+ 
+function countdown_timer(){
+
+  // decrease timer                 
+  max_time--;
+  document.getElementById('countdown').innerHTML = max_time;
+   document.getElementById('qnumber').innerHTML = NUMB;
+  
+  if(max_time == 0)
+                 {
+                    NUMB++;
+DisplayQuestions(); 
+
+     max_time= 6;
+                 
+                  
+     
+                }
+            
+                  
+
+ 
+  }
+
+// 1,000 means 1 second.
+cinterval = setInterval('countdown_timer()', 1000);
+</script>
+
+	
+	</head>
+
+
+	<body>
+
+<center><h1>Mini Game <br/> SCORE: <span id = "totalscore">0</span></h1></center>
+
+<div id = "e1">
+
+<center><input type="button" id="instruction" value="How to play"></input></center>
+
+
+
+ <div id = "instructionsmanual"><img src = "images/instructions.jpg"></img> </div>
+ <div id = "x"> <button id = "xbutton"><img src = "images/x.jpg" height = "30" width = "30"></img></div>
+
+
+
+
+             
+                
+                   
+                   
+<div id="guesstext1">Time: <span id = "countdown">5</span></div>
+
+
+
+
+<div id = "showone">
+
+
+
+<div id="container">
+<!--
+here here
+
+!-->
+     
+   
+                   Question no.
+                   <span id = "qnumber">
+                   </span> 
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                   <span id="startprogram">
+                   
+                   
+                   </span>
+     
+     
+
+	    <br/>
+	    <br/>
+
+
+
+  <br/>
+
+  <input type ="Submit" value="true" id="true"/>
+  <input type ="submit" value = "false" id="false"/>
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+	</body>
+
+</html>

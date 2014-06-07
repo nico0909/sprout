@@ -1,0 +1,70 @@
+.body
+{
+background-color:dark blue;
+}
+
+
+div.Image { 
+    display:inline-block;
+    padding:5px;
+}
+#container{
+    width:900px;
+    border:1px solid black;
+}
+
+
+
+
+#difficulty
+{
+
+	position:absolute;
+    left:570px;
+    top:70px;
+   font-size:30;
+font-weight: bold;
+    
+     color:black;
+	
+
+}
+
+
+
+#guesstext1
+{
+	position:absolute;
+    left:720px;
+    top:97px;
+    color:black;
+    
+    visibility:visible;
+	font-size:30;
+}
+
+#guesstext2
+{
+	position:absolute;
+    left:720px;
+    top:130px;
+    color:black;
+    
+    visibility:hidden;
+font-size:30;
+
+}
+
+
+#guesstext3
+{
+	position:absolute;
+    left:720px;
+    top:160px;
+    color:black;
+    
+    visibility:hidden;
+font-size:30;
+
+}
+
